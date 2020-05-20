@@ -1,0 +1,130 @@
+body{
+    margin:0; 
+    padding:0; 
+    background-image: url('imghome.jpg'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+}
+
+header{
+	float: left;
+	height: 41px;
+	width: 100%;
+	background-color: rgb(3, 157, 252, 0.5);
+	padding: 7px;
+}
+
+header a{
+	padding: 16px;
+	font-family:lato;
+	font-size: auto;
+	text-decoration: none;
+	color:rgb(61, 66, 69);
+}
+
+header a:hover{
+	background-color: rgb(3, 157, 252, 0.05);
+	color: black;
+	font-size: 160%;
+	font-family: Courier New, monospace;
+	font-weight: bolder;
+}
+
+.para {
+	
+}
+@media (max-width: 520px)
+{
+.para img{
+	height: 140px;
+	width: 104px;
+	padding: 20px;
+	padding-left: 20px;
+	border-radius: 44%;
+	transition: transform 0.5s;
+}
+.para p{
+	font-family: Courier New, monospace;
+	padding-left: 140px;
+	width:400px;
+	margin-top: -142px;
+}
+}
+
+@media (min-width: 520px) {
+.para img{
+	height: 160px;
+	width: 120px;
+	padding: 80px;
+	padding-left: 100px;
+	border-radius: 43%; 
+	transition: transform 0.5s;
+}
+.para p{
+	font-family: Courier New, monospace;
+	padding-left: 280px;
+	width:400px;
+	margin-top: -200px;
+}
+}
+.para img:hover{
+	transform: scale(1.2);
+}
+
+.para p:hover{
+	font-size: 100%;
+	font-weight: bold;
+}
+.myself{
+	margin-top: 110px;
+	padding: 20px;
+	padding-left: 30px;
+	font-size: 18px;
+	
+}
+
+.myself:hover{
+	background-color: rgb(96, 111, 120, 0.05);
+	color:rgb(70, 72, 128);
+}
+header{
+	float: left;
+	height: 41px;
+	width: 100%;
+	background-color: rgb(3, 157, 252, 0.5);
+	padding: 7px;
+}
+
+header a{
+	padding-left:30px;
+	font-family:lato;
+	font-size: auto;
+	text-decoration: none;
+	color:rgb(61, 66, 69);
+}
+
+header a:hover{
+	background-color: rgb(3, 157, 252, 0.05);
+	color: black;
+	font-size: 160%;
+	font-family: Courier New, monospace;
+	font-weight: bolder;
+}
+}
+
+.myself{
+	margin-top: 110px;
+	padding: 20px;
+	padding-left: 30px;
+	font-size:120%;
+}
+
+.myself:hover{
+	background-color: rgb(96, 111, 120, 0.05);
+	color:rgb(70, 72, 128);
+	font-size:100%;
+}
